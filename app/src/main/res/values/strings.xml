@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntentTutorial</string>
+    <string name="dial">Dial Number</string>
+    <string name="locate">Locate Me</string>
+    <string name="camera">Click Picture</string>
+    <string name="link">Open Link</string>
+    <string name="run">Run Video</string>
+</resources>
