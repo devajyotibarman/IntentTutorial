@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivityForResult(intent, REQUEST_IMAGE_CAPTURE);
                 break;
             case R.id.button4:
-                toast.setText("Clicked \"Click Picture\"");
+                toast.setText("Clicked \"Open Link\"");
                 toast.show();
                 intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.reddit.com/"));
                 startActivity(intent);
